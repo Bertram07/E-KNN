@@ -3,6 +3,23 @@ import numpy as np
 import csv
 import random
 
+
+
+
+
+#數據處理
+file_path = 'path/to/your/466881-2023-05.csv'
+df = pd.read_csv(file_path, encoding='latin-1')
+
+
+
+
+
+
+
+
+
+
 # 創建隨機數據的函數
 def generate_random_data():
     # 隨機經度和緯度
